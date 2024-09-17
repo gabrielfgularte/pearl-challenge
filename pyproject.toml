@@ -1,0 +1,9 @@
+[tool.black]
+target_version = ['py312']
+
+[tool.isort]
+profile = "black"
+extend_skip=["htmlcov", "migrations"]
+virtual_env=".venv"
+honor_noqa=true
+src_paths=["app"]
